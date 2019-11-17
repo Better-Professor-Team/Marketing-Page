@@ -1,0 +1,122 @@
+html {
+  background-color: #fff7e0;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Public Sans', sans-serif;
+  line-height: 1.6;
+}
+@font-face {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/publicsans/v2/ijwGs572Xtc6ZYQws9YVwllKVG8qX1oyOymuFpmJxAct.ttf) format('truetype');
+}
+html body {
+  font-size: 62.5%;
+}
+html body nav {
+  background-color: #1bb628;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html body nav .logo-container {
+  width: 48%;
+  font-size: 1.2rem;
+  color: #a50909;
+  margin-left: 1%;
+}
+html body nav .nav-elem-container {
+  width: 48%;
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-around;
+}
+html body nav .nav-elem-container a {
+  align-items: center;
+  width: fit-content;
+  margin: 1%, 2%;
+  padding: 1%;
+  color: white;
+  word-wrap: nowrap;
+  justify-content: flex-end;
+  justify-content: space-around;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+html body nav .nav-elem-container a:hover {
+  color: red;
+}
+html body .main-container {
+  display: flex;
+  flex-direction: row;
+}
+html body .aside-left {
+  width: 150%;
+  font-size: 1rem;
+  margin-right: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: pink;
+}
+html body .aside-left .aside-title {
+  background-color: #8a8383;
+  border-radius: 12px;
+  padding: 5px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+html body .aside-left .aside-title:hover {
+  background: white;
+  color: #8a8383;
+}
+html body .text-right {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  font-size: 1rem;
+  padding-right: 5%;
+}
+html body .text-right .parag-title {
+  margin: 1%, 2%;
+  font-size: 1rem;
+  width: fit-content;
+  padding: 1%;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+html body .text-right .parag-title .parag-content {
+  color: #da3e3e;
+  font-size: 1rem;
+}
+@media (max-width: 500px) {
+  html body .text-right .parag-title .parag-content {
+    display: flex;
+    color: Green;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.5rem;
+  }
+}
+html body .this-is-the-footer {
+  background-color: gray;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: auto;
+}
+html body .this-is-the-footer a {
+  font-size: 0.8rem;
+  color: whitesmoke;
+  margin: 5%;
+  justify-content: center;
+  font-weight: bold;
+}
+html body .this-is-the-footer a:hover {
+  color: black;
+  border-radius: 3px;
+}
