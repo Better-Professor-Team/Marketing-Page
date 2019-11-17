@@ -17,6 +17,8 @@ html body {
 }
 html body nav {
   background-color: #1bb628;
+  padding-top: 5px;
+  padding-bottom: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,10 +56,12 @@ html body .main-container {
   flex-direction: row;
 }
 html body .aside-left {
-  width: 150%;
+  width: 25%;
   font-size: 1rem;
   margin-right: 10px;
+  margin-top: 0px;
   padding: 10px;
+  padding-top: 0px;
   box-sizing: border-box;
   background-color: pink;
 }
@@ -69,12 +73,14 @@ html body .aside-left .aside-title {
   font-size: 1.2rem;
   font-weight: bold;
   text-align: center;
+  margin-bottom: 0;
 }
 html body .aside-left .aside-title:hover {
   background: white;
   color: #8a8383;
 }
 html body .text-right {
+  width: 75%;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
