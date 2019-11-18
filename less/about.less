@@ -2,14 +2,14 @@ html{
     background-color: rgb(255, 247, 224);
     margin: 0px;
     padding: 0px;
-    @import url('https://fonts.googleapis.com/css?family=Public+Sans&display=swap');
-    font-family: 'Public Sans', sans-serif;
+    // @import url('https://fonts.googleapis.com/css?family=Public+Sans&display=swap');
+    // font-family: 'Public Sans', sans-serif;
     line-height: 1.6;
     // - webkit-transform: scale(1, 1);
 
     body{
         font-size: 62.5%;
-        // box-sizing: border-box;
+        box-sizing: border-box;
        
 
 
@@ -17,7 +17,7 @@ html{
             background-color:rgb(27, 182, 40);
              padding-top: 5px;
              padding-bottom: 5px;
-            // border-radius: 12px;
+           
            
             display: flex;
             justify-content: center;
@@ -81,7 +81,7 @@ html{
                 font-size: 1.2rem;
                 font-weight: bold;
                 text-align: center;
-                   margin-bottom: 0;
+                //    margin-bottom: 0;
                 &:hover{
                     background: white;
                     color: rgb(138, 131, 131);
@@ -97,6 +97,34 @@ html{
             box-sizing: border-box;
             font-size: 1rem;
             padding-right: 5%;
+
+            .parag-content-top{ 
+               display: flex;
+
+               .child{
+                   width: 50%;
+                   height: auto;
+               }
+            
+              .child-image{
+                  width: 100%;
+
+                  .prof-image{
+                      width: 100%;
+                      height: 100%;
+                      padding-top: 5%;
+                      border-radius: 12px;
+                  }
+                
+              }
+              .child-text{
+            width: 100%;
+             padding-left: 2%;
+
+              }
+
+                }
+            }
 
 
             .parag-title{
@@ -151,4 +179,3 @@ html{
         }
 
     }
-}
