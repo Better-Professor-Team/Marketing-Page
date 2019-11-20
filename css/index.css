@@ -128,7 +128,6 @@ table {
 }
 /*---End CSS Reset*/
 #main_container {
-  border: solid black 3px;
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
@@ -193,4 +192,15 @@ table {
 }
 #main_container .showcase-feats .feat-container3 p {
   margin-top: 25px;
+}
+#main_container .carousel-inner img {
+  width: 300px;
+}
+#main_container .carousel-inner div {
+  color: black;
+  font-weight: bold;
+}
+#main_container footer {
+  max-width: 50%;
+  margin-left: 475px;
 }
