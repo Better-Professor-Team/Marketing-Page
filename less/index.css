@@ -129,7 +129,38 @@ table {
 /*---End CSS Reset*/
 #main_container {
   border: solid black 3px;
-  max-width: 1200px;
+  max-width: 1450px;
   width: 100%;
   margin: 0 auto;
+}
+#main_container .top-nav .home-nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+#main_container .top-nav .home-nav .nav_item {
+  margin-top: 7.5%;
+}
+#main_container .top-nav .home-nav .nav_item button:hover {
+  border-radius: 50%;
+  height: 50px;
+  width: 100px;
+  margin-top: -15px;
+  background-color: #4caf50;
+  /* Green */
+  color: white;
+}
+#main_container .header-CTA {
+  border: solid red 3px;
+}
+#main_container .header-CTA h1,
+#main_container .header-CTA p {
+  border: solid orange 3px;
+  display: flex;
+  justify-content: center;
+}
+#main_container .header-CTA .header-button {
+  margin-left: 35%;
+  border-radius: 35%;
+  width: 400px;
+  height: 50px;
 }
