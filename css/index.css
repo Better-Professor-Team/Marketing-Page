@@ -170,3 +170,27 @@ table {
   height: 50px;
   font-size: 2em;
 }
+#main_container .showcase-feats {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+#main_container .showcase-feats h3 {
+  font-weight: bold;
+  margin-top: 75px;
+}
+#main_container .showcase-feats .feat-container1 {
+  padding: 20px;
+}
+#main_container .showcase-feats .feat-container2 {
+  padding: 20px;
+}
+#main_container .showcase-feats .feat-container2 p {
+  margin-top: 25px;
+}
+#main_container .showcase-feats .feat-container3 {
+  padding: 20px;
+}
+#main_container .showcase-feats .feat-container3 p {
+  margin-top: 25px;
+}
