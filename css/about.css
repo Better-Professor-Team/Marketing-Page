@@ -90,6 +90,7 @@ html body nav .nav-elem-container a:hover {
     margin-left: 10px;
     margin-right: 10px;
     justify-content: space-around;
+    font-size: 1.5rem;
   }
 }
 html body .main-container {
@@ -176,10 +177,12 @@ html body .main-container .text-right .parag-content-top .child .child-text {
   padding-left: 2%;
 }
 html body .main-container .text-right .parag-title {
-  margin: 0, 1%;
+  margin-top: 1%;
+  padding-top: 2%;
+  margin-bottom: 0;
+  box-sizing: border-box;
   font-size: 1rem;
   width: fit-content;
-  padding: 1%;
   font-size: 1.2rem;
   font-weight: bold;
 }
@@ -215,17 +218,21 @@ html body .this-is-the-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #8a8383;
+    background-color: #838a86;
   }
 }
 html body .this-is-the-footer a {
-  font-size: 0.8rem;
   color: whitesmoke;
   margin: 5%;
   justify-content: center;
   font-weight: bold;
+  font-size: 0.8rem;
+}
+@media (max-width: 500px) {
+  html body .this-is-the-footer a {
+    font-size: 1.5rem;
+  }
 }
 html body .this-is-the-footer a:hover {
   color: black;
-  border-radius: 3px;
 }
