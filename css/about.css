@@ -1,5 +1,4 @@
 html {
-  background-color: #fff7e0;
   margin: 0px;
   padding: 0px;
   line-height: 1.6;
@@ -21,7 +20,6 @@ html body nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1bb628;
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -37,7 +35,7 @@ html body nav {
 html body nav .logo-container {
   width: 48%;
   font-size: 1.2rem;
-  color: #a50909;
+  color: #ec1616;
   margin-left: 1%;
 }
 @media (max-width: 500px) {
@@ -69,7 +67,7 @@ html body nav .nav-elem-container a {
   width: fit-content;
   margin: 1%, 2%;
   padding: 1%;
-  color: white;
+  color: black;
   word-wrap: nowrap;
   justify-content: flex-end;
   justify-content: space-around;
@@ -105,7 +103,6 @@ html body .main-container .aside-left {
   padding: 10px;
   padding-top: 0px;
   box-sizing: border-box;
-  background-color: pink;
 }
 @media (max-width: 500px) {
   html body .main-container .aside-left {
@@ -170,7 +167,7 @@ html body .main-container .text-right .parag-content-top .child .prof-image {
   width: 100%;
   height: 100%;
   padding-top: 5%;
-  border-radius: 12px;
+  border-radius: 50px;
 }
 html body .main-container .text-right .parag-content-top .child .child-text {
   width: 100%;
@@ -207,7 +204,6 @@ html body .main-container .text-right .parag-content {
   }
 }
 html body .this-is-the-footer {
-  background-color: gray;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -222,7 +218,7 @@ html body .this-is-the-footer {
   }
 }
 html body .this-is-the-footer a {
-  color: whitesmoke;
+  color: black;
   margin: 5%;
   justify-content: center;
   font-weight: bold;
