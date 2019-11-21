@@ -207,3 +207,35 @@ table {
   max-width: 50%;
   margin-left: 475px;
 }
+@media (max-width: 750px) {
+  .home-nav .logo {
+    display: none;
+  }
+  .home-nav .nav_item {
+    display: none;
+  }
+  .dropdown .btn_btn-secondary_dropdown-toggle {
+    border: solid black 2px;
+    border-radius: 30px;
+    font-weight: bolder;
+    margin-right: 650px;
+  }
+  .header-CTA {
+    border: solid orange 3px;
+  }
+  .header-CTA .header-button {
+    display: none;
+  }
+  .bootstrap_button {
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+  }
+  .bootstrap_button button {
+    width: 100px;
+  }
+  .copyright {
+    border: solid red 3px;
+    display: none;
+  }
+}

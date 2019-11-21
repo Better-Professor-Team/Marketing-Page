@@ -48,6 +48,7 @@
         <!--Navigation code here-->
         <section class="top-nav">
             <nav class ='home-nav'>
+              <!--Desktop Nav-->
                 <img class = 'logo' src='/images/Logo.png'>
                 <a class = 'nav_item' href="#">Features</a>
                 <a class = 'nav_item' href="#">Premium</a>
@@ -55,6 +56,19 @@
                 <a class = 'nav_item' href="about.html">About</a>
                 <a class = 'nav_item' href="#">Sign In</a>
                 <a class = 'nav_item' href="#"><button>Get Started</button></a>
+              
+              <!--Tablet Nav-->
+              <div class="dropdown">
+                  <a class="btn_btn-secondary_dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Menu
+                  </a>
+                
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="index.html">Home</a>
+                    <a class="dropdown-item" href="about.html">About</a>
+                    <a class="dropdown-item" href="#">Sign In</a>
+                  </div>
+                </div>
             </nav>
         </section> 
         <!--End Nav code-->
@@ -63,9 +77,12 @@
         <section class='header-CTA'>
             <h1>Organization Made Easy.</h1>
             <button class='header-button'>Get Started</button>
+            <!-- <button type="button" class="btn btn-info">Join Now</button> -->
         </section>
         <!--End Header CTA-->
-
+        <div class ='bootstrap_button'>
+          <button type="button" class="btn btn-info btn-lg">Join Now</button>
+        </div>
     <!--End Header-->
     </header>
 
