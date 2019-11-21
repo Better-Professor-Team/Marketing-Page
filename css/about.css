@@ -28,7 +28,7 @@ html body nav {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #fff7e0;
+    border-bottom: 1px, solid, blue;
     color: black;
   }
 }
@@ -214,7 +214,6 @@ html body .this-is-the-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #838a86;
   }
 }
 html body .this-is-the-footer a {
@@ -227,6 +226,7 @@ html body .this-is-the-footer a {
 @media (max-width: 500px) {
   html body .this-is-the-footer a {
     font-size: 1.5rem;
+    text-decoration: none;
   }
 }
 html body .this-is-the-footer a:hover {
