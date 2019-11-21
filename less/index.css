@@ -135,6 +135,7 @@ table {
 #main_container .top-nav .home-nav {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: -50px;
 }
 #main_container .top-nav .home-nav .nav_item {
   margin-top: 7.5%;
@@ -173,10 +174,12 @@ table {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  margin: 0 auto;
 }
 #main_container .showcase-feats h3 {
   font-weight: bold;
   margin-top: 75px;
+  margin-left: 25px;
 }
 #main_container .showcase-feats .feat-container1 {
   padding: 20px;
