@@ -137,6 +137,14 @@ table {
   margin: 0 auto;
 
   .top-nav {
+    #btnGroupDrop1 {
+      visibility: hidden;
+    }
+
+    .dropdown-menu {
+      visibility: hidden;
+    }
+
     .home-nav {
       display: flex;
       justify-content: space-evenly;
@@ -239,7 +247,7 @@ table {
     }
 
     .nav_item {
-      display: none;
+      // display: none;
     }
   }
 
@@ -281,6 +289,12 @@ table {
     margin: 0 auto;
     max-width: 500px;
     overflow-x: hidden;
+
+    .home-nav {
+      .logo {
+        display: none;
+      }
+    }
 
     .showcase-feats {
       h3 {

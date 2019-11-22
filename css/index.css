@@ -132,6 +132,12 @@ table {
   width: 100%;
   margin: 0 auto;
 }
+#main_container .top-nav #btnGroupDrop1 {
+  visibility: hidden;
+}
+#main_container .top-nav .dropdown-menu {
+  visibility: hidden;
+}
 #main_container .top-nav .home-nav {
   display: flex;
   justify-content: space-evenly;
@@ -212,9 +218,6 @@ table {
   .home-nav .logo {
     display: none;
   }
-  .home-nav .nav_item {
-    display: none;
-  }
   .dropdown .btn_btn-secondary_dropdown-toggle {
     border: solid black 2px;
     border-radius: 30px;
@@ -242,6 +245,9 @@ table {
     margin: 0 auto;
     max-width: 500px;
     overflow-x: hidden;
+  }
+  body .home-nav .logo {
+    display: none;
   }
   body .showcase-feats h3 {
     display: none;
