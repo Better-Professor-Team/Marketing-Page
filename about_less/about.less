@@ -17,7 +17,7 @@ html{
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            font-size: 2rem;
+            font-size: .8rem;
         }
        
 
@@ -44,7 +44,7 @@ html{
 
             .logo-container{
             width: 48%;
-            font-size: 1.2rem;
+            font-size: 1rem;
             color: rgb(236, 22, 22);
             margin-left: 1%;
 
@@ -244,9 +244,10 @@ html{
 
             @media(max-width: 500PX){
                 display: flex;
-                flex-direction: column;
+                // flex-direction: column;
                 align-items: center;
-                // background-color: rgb(131, 138, 134);
+                background-color: rgb(131, 138, 134);
+                border: 2px, solid, red;
             }
 
 
@@ -257,14 +258,18 @@ html{
                 justify-content: center;
                 font-weight: bold;
                 font-size: .8rem;
+                 &:hover{
+                   color: blue;
+               } //
 
                 @media(max-width: 500px){
-                    font-size: 1.5rem;
+                    font-size: 1rem;
                     text-decoration: none;
+                    border: 1px, solid, black;
                 }
 
                 &:hover{
-                    color: black;
+                    color: red;
                     
 
                 }  // &:hoover 

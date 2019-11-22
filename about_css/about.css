@@ -13,7 +13,7 @@ html body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    font-size: 0.8rem;
   }
 }
 html body nav {
@@ -34,7 +34,7 @@ html body nav {
 }
 html body nav .logo-container {
   width: 48%;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #ec1616;
   margin-left: 1%;
 }
@@ -212,8 +212,9 @@ html body .this-is-the-footer {
 @media (max-width: 500PX) {
   html body .this-is-the-footer {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    background-color: #838a86;
+    border: 2px, solid, red;
   }
 }
 html body .this-is-the-footer a {
@@ -223,12 +224,16 @@ html body .this-is-the-footer a {
   font-weight: bold;
   font-size: 0.8rem;
 }
+html body .this-is-the-footer a:hover {
+  color: blue;
+}
 @media (max-width: 500px) {
   html body .this-is-the-footer a {
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-decoration: none;
+    border: 1px, solid, black;
   }
 }
 html body .this-is-the-footer a:hover {
-  color: black;
+  color: red;
 }
