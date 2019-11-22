@@ -184,7 +184,7 @@ table {
   .showcase-feats {
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     margin: 0 auto;
 
     h3 {
@@ -194,24 +194,29 @@ table {
     }
 
     .feat-container1 {
-      padding: 20px;
-    }
-
-    .feat-container2 {
+      width: 100%;
       padding: 20px;
 
       p {
-        margin-top: 25px;
+        margin-top: 20px;
       }
     }
 
-    .feat-container3 {
-      padding: 20px;
+    // .feat-container2 {
+    //   padding: 20px;
 
-      p {
-        margin-top: 25px;
-      }
-    }
+    //   p {
+    //     margin-top: 25px;
+    //   }
+    // }
+
+    // .feat-container3 {
+    //   padding: 20px;
+
+    //   p {
+    //     margin-top: 25px;
+    //   }
+    // }
   }
 
   .carousel-inner {
@@ -232,7 +237,6 @@ table {
 }
 
 //Begin tablet Media Query
-
 @media (max-width: 750px) {
   .home-nav {
     .logo {
@@ -249,13 +253,11 @@ table {
       border: solid black 2px;
       border-radius: 30px;
       font-weight: bolder;
-      margin-right: 650px;
+      // margin-right: 650px;
     }
   }
 
   .header-CTA {
-    border: solid orange 3px;
-
     .header-button {
       display: none;
     }
@@ -274,5 +276,31 @@ table {
   .copyright {
     border: solid red 3px;
     display: none;
+  }
+}
+//End tablet view
+
+//Start Mobile View
+@media (max-width: 500px) {
+  body {
+    border: solid red 3px;
+    margin: 0 auto;
+    max-width: 500px;
+
+    .top-nav {
+      border: solid orange 3px;
+    }
+
+    .header-CTA {
+      border: solid blue 3px;
+    }
+
+    .showcase-feats {
+      border: solid green 3px;
+    }
+
+    #carousel-example-generic {
+      border: solid gold 3px;
+    }
   }
 }

@@ -173,7 +173,7 @@ table {
 #main_container .showcase-feats {
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
   margin: 0 auto;
 }
 #main_container .showcase-feats h3 {
@@ -182,19 +182,11 @@ table {
   margin-left: 25px;
 }
 #main_container .showcase-feats .feat-container1 {
+  width: 100%;
   padding: 20px;
 }
-#main_container .showcase-feats .feat-container2 {
-  padding: 20px;
-}
-#main_container .showcase-feats .feat-container2 p {
-  margin-top: 25px;
-}
-#main_container .showcase-feats .feat-container3 {
-  padding: 20px;
-}
-#main_container .showcase-feats .feat-container3 p {
-  margin-top: 25px;
+#main_container .showcase-feats .feat-container1 p {
+  margin-top: 20px;
 }
 #main_container .carousel-inner img {
   width: 300px;
@@ -218,10 +210,6 @@ table {
     border: solid black 2px;
     border-radius: 30px;
     font-weight: bolder;
-    margin-right: 650px;
-  }
-  .header-CTA {
-    border: solid orange 3px;
   }
   .header-CTA .header-button {
     display: none;
@@ -237,5 +225,24 @@ table {
   .copyright {
     border: solid red 3px;
     display: none;
+  }
+}
+@media (max-width: 500px) {
+  body {
+    border: solid red 3px;
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  body .top-nav {
+    border: solid orange 3px;
+  }
+  body .header-CTA {
+    border: solid blue 3px;
+  }
+  body .showcase-feats {
+    border: solid green 3px;
+  }
+  body #carousel-example-generic {
+    border: solid gold 3px;
   }
 }

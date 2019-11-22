@@ -220,9 +220,6 @@ table {
     font-weight: bolder;
     margin-right: 650px;
   }
-  .header-CTA {
-    border: solid orange 3px;
-  }
   .header-CTA .header-button {
     display: none;
   }
