@@ -13,6 +13,12 @@ This is the User Interface part of the web application. It is also known as the 
 -FontAwesome Images
 -Webflow
 
+## Mobile Responsive Notes
+
+-Desktop: 1200px
+-Tablet: 750px
+-Mobile: 500px
+
 ## Creators
 
 Joshua Vandergriff
