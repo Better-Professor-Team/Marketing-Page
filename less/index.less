@@ -155,6 +155,15 @@ table {
         }
       }
     }
+
+    .dropdown {
+      border: solid red 3px;
+      visibility: hidden;
+    }
+  }
+
+  .bootstrap_button {
+    visibility: hidden;
   }
 
   .header-CTA {
@@ -184,8 +193,9 @@ table {
   .showcase-feats {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     margin: 0 auto;
+    width: 100%;
 
     h3 {
       font-weight: bold;
@@ -194,29 +204,13 @@ table {
     }
 
     .feat-container1 {
-      width: 100%;
+      width: 33%;
       padding: 20px;
 
       p {
         margin-top: 20px;
       }
     }
-
-    // .feat-container2 {
-    //   padding: 20px;
-
-    //   p {
-    //     margin-top: 25px;
-    //   }
-    // }
-
-    // .feat-container3 {
-    //   padding: 20px;
-
-    //   p {
-    //     margin-top: 25px;
-    //   }
-    // }
   }
 
   .carousel-inner {
@@ -253,13 +247,13 @@ table {
       border: solid black 2px;
       border-radius: 30px;
       font-weight: bolder;
-      // margin-right: 650px;
+      visibility: visible;
     }
   }
 
   .header-CTA {
     .header-button {
-      display: none;
+      visibility: hidden;
     }
   }
 
@@ -267,6 +261,7 @@ table {
     display: flex;
     justify-content: center;
     margin-top: -50px;
+    visibility: visible;
 
     button {
       width: 100px;
@@ -287,20 +282,15 @@ table {
     margin: 0 auto;
     max-width: 500px;
 
-    .top-nav {
-      border: solid orange 3px;
-    }
-
-    .header-CTA {
-      border: solid blue 3px;
-    }
-
     .showcase-feats {
-      border: solid green 3px;
-    }
+      h3 {
+        border: solid blue 3px;
+        display: none;
+      }
 
-    #carousel-example-generic {
-      border: solid gold 3px;
+      .feat-container1 {
+        border: solid orange 3px;
+      }
     }
   }
 }
