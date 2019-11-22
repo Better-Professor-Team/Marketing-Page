@@ -50,7 +50,7 @@
             <nav class ='home-nav'>
               <!--Desktop Nav-->
                 <img class = 'logo' src='/images/Logo.png'>
-                <a class = 'nav_item' href="#">Features</a>
+                <a class = 'nav_item' href="about.html">About</a>
                 <a class = 'nav_item' href="#">Premium</a>
                 <a class = 'nav_item' href="#">Pricing</a>
                 <a class = 'nav_item' href="about.html">About</a>
@@ -58,15 +58,28 @@
                 <a class = 'nav_item' href="https://better-professor-site.netlify.com/"><button>Get Started</button></a>
               
               <!--Tablet Nav-->
-              <div class="dropdown">
-                  <a class="btn_btn-secondary_dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <!-- <div class="dropdown">
+                  <button class="btn_btn-secondary_dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Menu
-                  </a>
+                  </button>
                 
                   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                     <a class="dropdown-item" href="index.html">Home</a>
                     <a class="dropdown-item" href="about.html">About</a>
                     <a class="dropdown-item" href="#">Sign In</a>
+                  </div>
+                </div> -->
+                <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                
+                  <div class="btn-group" role="group">
+                    <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Menu
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                      <a class="dropdown-item" href="index.html">Home</a>
+                      <a class="dropdown-item" href="about.html">About</a>
+                      <a class="dropdown-item" href="https://better-professor-site.netlify.com/">Sign-In</a>
+                    </div>
                   </div>
                 </div>
             </nav>
